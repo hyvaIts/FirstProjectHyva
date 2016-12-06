@@ -32,6 +32,7 @@ public class IndexAction extends ActionSupport {
     @TypeConversion(converter = "com.hyva.DateConverter")
     public Date getDateNow() {
         System.out.println("now = " + now);
+        System.out.println("IndexAction.getDateNow");
         return now; }
     
     public String execute() throws Exception {
