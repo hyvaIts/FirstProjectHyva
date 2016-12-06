@@ -36,7 +36,8 @@ public class IndexAction extends ActionSupport {
         return now; }
     
     public String execute() throws Exception {
-        System.out.println("");
+        System.out.println("something");
+
         now = new Date(System.currentTimeMillis());
         return SUCCESS;
     }
