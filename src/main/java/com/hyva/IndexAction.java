@@ -26,11 +26,13 @@ import java.util.Date;
  */
 @Conversion()
 public class IndexAction extends ActionSupport {
-    
+
     private Date now = new Date(System.currentTimeMillis());
     
     @TypeConversion(converter = "com.hyva.DateConverter")
-    public Date getDateNow() { return now; }
+    public Date getDateNow() {
+        System.out.println("now = " + now);
+        return now; }
     
     public String execute() throws Exception {
         now = new Date(System.currentTimeMillis());
