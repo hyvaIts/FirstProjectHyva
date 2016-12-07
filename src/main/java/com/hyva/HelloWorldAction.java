@@ -40,6 +40,8 @@ public class HelloWorldAction extends ActionSupport {
     public String getName() { return this.name; }
     
     public String execute() throws Exception {
+        System.out.println("chinmay commit");
+        System.out.println("chinmay commit2");
         return SUCCESS;
     }
 }
