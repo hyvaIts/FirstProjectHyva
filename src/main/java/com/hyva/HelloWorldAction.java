@@ -41,6 +41,7 @@ public class HelloWorldAction extends ActionSupport {
     
     public String execute() throws Exception {
         System.out.println("chinmay commit");
+        System.out.println("chinmay commit2");
         return SUCCESS;
     }
 }
