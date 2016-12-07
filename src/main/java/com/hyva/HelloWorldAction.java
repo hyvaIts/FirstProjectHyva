@@ -43,6 +43,7 @@ public class HelloWorldAction extends ActionSupport {
         System.out.println("chinmay commit");
         System.out.println("chinmay commit2");
         System.out.println("uday commit1");
+        System.out.println("one more");
         return SUCCESS;
     }
 }
