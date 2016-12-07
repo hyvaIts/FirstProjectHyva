@@ -33,9 +33,13 @@ public class IndexAction extends ActionSupport {
     public Date getDateNow() {
         System.out.println("now = " + now);
         System.out.println("IndexAction.getDateNow");
+        System.out.println("feature 12 change");
         return now; }
     
     public String execute() throws Exception {
+        System.out.println("something");
+        System.out.println("feature 12 change");
+
         now = new Date(System.currentTimeMillis());
         return SUCCESS;
     }
